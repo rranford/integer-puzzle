@@ -1,5 +1,4 @@
-var tempMethod = function(){
-	return "Initial code";
-}
+var Components = require('./components');
 
-module.exports.tempMethod = tempMethod;
+var inout = new Components.Inout();
+console.log(inout.startMessage());
