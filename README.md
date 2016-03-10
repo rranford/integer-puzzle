@@ -12,7 +12,7 @@ Please note this application was developed on Windows 10
 Install and Run
 ---------------
 
-###Install
+**Install**
 
 run node.js command prompt terminal
 
@@ -22,13 +22,13 @@ clone this repo
 
 > npm install
 
-### Run Tests
+**Run Tests**
 
 To run test and watch for file modifications on the root whilst developing run the following command in the node.js command prompt terminal
 
 > node node_modules\jasmine-node\bin\jasmine-node spec --autotest --watch .
 
-### Run application
+**Run application**
 
 To start:
 
@@ -40,8 +40,25 @@ To exit:
 
 Example output
 --------------
+<pre>
+|      |    2 |    3 |    5 |
+|    2 |    4 |    6 |   10 |
+|    3 |    6 |    9 |   15 |
+|    5 |   10 |   15 |   25 |
+</pre>
 
-TODO
+
+Limitations and sweet spots
+---------------------------
+
+**Pleased With**
+
+
+**Given more time**
+
+
+**General Comment**
+
 
 
 
