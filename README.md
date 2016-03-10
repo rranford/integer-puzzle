@@ -16,11 +16,17 @@ Install and Run
 
 run node.js command prompt terminal
 
-clone this repo
+clone this repo 
 
->npm install
+> >git clone https://github.com/rranford/integer-puzzle.git
 
+> >npm install
 
+### Run Tests
+
+To run test and watch for file modifications on the root whilst developing run the following command in the node.js command prompt terminal
+
+> >node node_modules\jasmine-node\bin\jasmine-node spec --autotest --watch .
 
 
 Example output
