@@ -17,4 +17,9 @@ describe('inout module',function(){
 		var testSubject = new Components.Inout(stubreader);
 		assert.equal(testSubject.startMessage(),"I'm going to calculate the prime numbers up to the number you provide");
 	});
+	
+	it('should ask the user to enter a number',function(){
+		var testSubject = new Components.Inout(stubreader);
+		//assert.equal(testSubject.reader.question(),"Please provide a number?");
+	});
 });

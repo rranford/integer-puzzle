@@ -14,4 +14,9 @@ Inout.prototype.startMessage = function(){
 	return "I'm going to calculate the prime numbers up to the number you provide";
 };
 
+Inout.prototype.promptUser = function(){
+	var that = this;
+	reader.question("Please provide a number?");
+}
+
 module.exports = Inout;
