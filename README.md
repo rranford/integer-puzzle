@@ -7,10 +7,19 @@ Dependencies
 ------------
 [Node] [NodeDownload]
 
+Please note this application was developed on Windows 10
+
 Install and Run
 ---------------
 
-TODO
+###Install
+
+run node.js command prompt terminal
+
+clone this repo
+
+>npm install
+
 
 
 
