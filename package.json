@@ -1,0 +1,17 @@
+{
+  "name" : "integer-puzzle",
+  "description" : "Integer Puzzle",
+  "author": "Robyn Ranford",
+  "repository": "https://github.com/rranford/integer-puzzle",
+  "license": "MIT",
+  "version" : "0.0.1",
+  "private" : false,
+  "devDependencies": {
+    "jasmine-node": "x"
+  },
+  "engine": "node 5.7.1",
+  "scripts" : {
+    "test" : "node node_modules\\jasmine-node\\bin\\jasmine-node spec --autotest --watch ."
+  },
+  "main": "main.js"
+}
