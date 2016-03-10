@@ -1,8 +1,9 @@
-var calculator = require('./../components/calculator');
+var Components = require('./../components');
 var assert = require('assert');
 
-describe('calculator module',function(){
-	it('should load from the require statement',function(){
-		assert.ok(calculator);
+describe('Calculator module',function(){
+	it('should load Calculator module',function(){
+		var testSubject = new Components.Calculator();
+		assert.ok(testSubject);
 	});
 });

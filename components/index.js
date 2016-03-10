@@ -1,3 +1,4 @@
 module.exports = {
-	Inout: require("./inout")
+	Inout: require("./inout"),
+	Calculator: require("./calculator")
 };
